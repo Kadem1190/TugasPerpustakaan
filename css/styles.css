@@ -1,0 +1,254 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.wraper {
+    margin: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+.kepala {
+    background: #884499  ;
+    text-align: center;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.kepala h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Menu */
+.menu {
+    background-color: #ffffff;
+    color: #333;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list_menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+
+.list_menu li {
+    flex: 1;
+    text-align: center;
+    padding: 15px 10px;
+    border-right: 1px solid #eaeaea;
+    transition: all 0.3s ease;
+}
+
+.list_menu li:last-child {
+    border-right: none;
+}
+
+.list_menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.list_menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.list_menu li a:hover {
+    font-weight: bold;
+    color: #2575fc;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.sisikiri {
+    flex: 1;
+    margin: auto;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sisikiri h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2575fc;
+}
+
+.sisikiri p {
+    margin-bottom: 15px;
+}
+
+.sisikiri ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.sisikiri li {
+    margin-bottom: 10px;
+}
+
+.sisikiri a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.sisikiri a:hover {
+    text-decoration: underline;
+    color: #6a11cb;
+}
+
+/* Content */
+.konten {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 20px;
+    height: auto;
+    min-height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.konten h3 {
+    text-align: center;
+    color: #2575fc;
+    margin-bottom: 20px;
+}
+
+.konten a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #2575fc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.konten a:hover {
+    background-color: #6a11cb;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #2575fc;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #6a11cb;
+}
+
+/* Forms */
+form {
+    margin-bottom: 20px;
+}
+
+form table {
+    width: 100%;
+}
+
+form table td {
+    padding: 10px;
+}
+
+form input[type="text"], form input[type="password"], form input[type="datetime-local"], form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus, form input[type="datetime-local"]:focus, form select:focus {
+    border-color: #2575fc;
+    outline: none;
+}
+
+/* Footer */
+.kaki {
+    clear: both;
+    margin-top: 20px;
+    background-color: #6a11cb;
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kaki a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kaki a:hover {
+    text-decoration: underline;
+}
