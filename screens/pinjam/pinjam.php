@@ -49,7 +49,7 @@
             <td align="center">
                 <a href="../admin/index.php?page=pinjamubah&idpinjam=<?php echo $tampildata['idpinjam']; ?>">Edit</a> |
                 <a href="../../screens/pinjam/pinjamhapus.php?idpinjam=<?php echo $tampildata['idpinjam']; ?>" onclick="return confirm('Apa Anda yakin akan menghapus Data Peminjaman?')">Delete</a> |
-                <a href="../admin/index.php?page=transaksi&idpinjam=<?php echo $tampildata['idpinjam']; ?>">Transaksi</a>
+                <!-- <a href="../admin/index.php?page=transaksi&idpinjam=<?php echo $tampildata['idpinjam']; ?>">Transaksi</a> -->
             </td>
         </tr>
         <!--akhir menampilkan data dari tabel buku ke halaman web-->
